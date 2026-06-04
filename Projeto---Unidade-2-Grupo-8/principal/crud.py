@@ -138,8 +138,24 @@ def editar():
     salvar_dados()
     print(f"Campo '{editar_item}' atualizado com sucesso.")
  
+def listar():
+    if not dados:
+        print("Nenhum pet cadastrado.")
+        return
+
+    for id_pet, pet in dados.items():
+        print(f"\nID: {id_pet}")
+        print(f"Nome: {pet['Nome']}")
+        print(f"Espécie: {pet['Espécie']}")
+        print(f"Raça: {pet['Raça']}")
+        print(f"Idade: {pet['Idade']}")
+        print(f"Estado de saúde: {pet['Estado de saúde']}")
+        print(f"Data de chegada: {pet['Data de chegada']}")
+        print(f"Comportamento: {pet['Comportamento']}")
+        print("-" * 30)
+
 def acao():
-    print("1 - Cadastrar pet\n2 - Excluir pet\n3 - Editar pet")
+    print("1 - Cadastrar pet\n2 - Excluir pet\n3 - Editar pet\n4 - Listar pets")
     opcao = int(input("Oque deseja realizar: "))
 
     if (opcao == 1):
@@ -151,6 +167,8 @@ def acao():
     elif (opcao == 3):
         editar()
 
+    elif (opcao == 4):
+        listar()
 acao()
 
 def repeticao():

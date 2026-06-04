@@ -1,27 +1,18 @@
 ID: 1
-Nome: ['Jair']
-Espécie: s
-Raça: s
-Idade: 2
-Estado de saúde: s
-Data de chegada: s
-Comportamento: s
+Nome: bela
+Espécie: cachorro
+Raça: pinscher
+Idade: 8
+Estado de saúde: bom
+Data de chegada: 02/03/2018
+Comportamento: docil
 ------------------------------
-ID: 3
-Nome: n
-Espécie: n
-Raça: n
-Idade: 2
-Estado de saúde: n
-Data de chegada: n
-Comportamento: n
-------------------------------
-ID: 4
-Nome: t
-Espécie: t
-Raça: t
-Idade: 6
-Estado de saúde: g
-Data de chegada: g
-Comportamento: g
+ID: 2
+Nome: loki
+Espécie: Cane Corso
+Raça: labrador
+Idade: 3
+Estado de saúde: bom
+Data de chegada: 23/05/2023
+Comportamento: docil
 ------------------------------
