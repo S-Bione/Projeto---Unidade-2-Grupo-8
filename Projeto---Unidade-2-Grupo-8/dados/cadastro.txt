@@ -1,0 +1,27 @@
+ID: 1
+Nome: ['Jair']
+Espécie: s
+Raça: s
+Idade: 2
+Estado de saúde: s
+Data de chegada: s
+Comportamento: s
+------------------------------
+ID: 3
+Nome: n
+Espécie: n
+Raça: n
+Idade: 2
+Estado de saúde: n
+Data de chegada: n
+Comportamento: n
+------------------------------
+ID: 4
+Nome: t
+Espécie: t
+Raça: t
+Idade: 6
+Estado de saúde: g
+Data de chegada: g
+Comportamento: g
+------------------------------
