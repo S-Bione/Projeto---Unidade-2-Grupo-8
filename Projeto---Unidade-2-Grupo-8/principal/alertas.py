@@ -1,4 +1,4 @@
-from datetime import datetime
+﻿from datetime import datetime
 
 def calcular_dias_restantes(data_tarefa):
     try:
