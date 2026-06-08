@@ -155,6 +155,7 @@ def listar():
         print("-" * 30)
 
 def acao():
+    print("-"*10 ,"ADOÇÃO+", "-"*10)
     print("1 - Cadastrar pet\n2 - Excluir pet\n3 - Editar pet\n4 - Listar pets")
     opcao = int(input("Oque deseja realizar: "))
 
@@ -169,7 +170,7 @@ def acao():
 
     elif (opcao == 4):
         listar()
-acao()
+
 
 def repeticao():
      while True:
@@ -184,4 +185,3 @@ def repeticao():
             print("Obrigado!")
             break
 
-repeticao()

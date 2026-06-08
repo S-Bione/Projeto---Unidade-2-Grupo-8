@@ -9,10 +9,19 @@ Comportamento: docil
 ------------------------------
 ID: 2
 Nome: loki
-Espécie: Cane Corso
-Raça: labrador
+Espécie: Cachorro
+Raça: Cane Corso
 Idade: 3
 Estado de saúde: bom
 Data de chegada: 23/05/2023
+Comportamento: docil
+------------------------------
+ID: 3
+Nome: ze ruela
+Espécie: gato
+Raça: siames
+Idade: 50
+Estado de saúde: Bom
+Data de chegada: 13/11/1999
 Comportamento: docil
 ------------------------------

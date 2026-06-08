@@ -38,4 +38,4 @@ animal = {
     ]
 }
 
-exibir_alertas(animal)
+

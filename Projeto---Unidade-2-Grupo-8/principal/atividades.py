@@ -55,13 +55,13 @@ def cadastrar_atividade():
         print("Erro: Data inválida! Use o formato dd/mm/aaaa.")
         return
 
-    dados = {
+    dados_atividades = {
         "pet": nome_pet,
         "atividade": atividade,
         "data": data,
         "responsavel": responsavel
     }
-    atividades.append(dados)
+    atividades.append(dados_atividades)
     salvar_em_txt()
     print("Atividade cadastrada com sucesso!")
 
@@ -77,20 +77,22 @@ def listar_atividades():
             print("Data:", item["data"])
             print("Responsável:", item["responsavel"])
             print("-" * 30)
-carregar_txt()
-while True:
-    print("\n1 - Cadastrar atividade")
-    print("2 - Listar atividades")
-    print("3 - Sair")
 
-    opcao = input("Escolha: ")
 
-    if opcao == "1":
-        cadastrar_atividade()
-    elif opcao == "2":
-        listar_atividades()
-    elif opcao == "3":
-        print("Encerrando o programa...")
-        break
-    else:
-        print("Opção inválida!")
+def acao_atividade():
+    while True:
+        print("\n1 - Cadastrar atividade")
+        print("2 - Listar atividades")
+        print("3 - Sair")
+
+        opcao = input("Escolha: ")
+
+        if opcao == "1":
+            cadastrar_atividade()
+        elif opcao == "2":
+            listar_atividades()
+        elif opcao == "3":
+            print("Encerrando o programa...")
+            break
+        else:
+            print("Opção inválida!")
